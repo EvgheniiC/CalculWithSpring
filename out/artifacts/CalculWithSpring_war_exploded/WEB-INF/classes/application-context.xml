@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+    <!-- <context:component-scan base-package="com.implicing_wiring" />-->
+
+    <!-- <bean name="programmer" class="com.evghenii.Programmer">
+         <constructor-arg index="0" value="add" />
+         &lt;!&ndash;<property name="operationsName" value="div" />&ndash;&gt;
+     </bean>
+
+     <bean name="mathematical" class="com.evghenii.Mathematician">
+         <constructor-arg index="0" ref="programmer" />
+         &lt;!&ndash;<property name="fileReader" ref="fileReader" />&ndash;&gt;
+     </bean>-->
+
+<!--
+    <bean name="geometry" class="com.evghenii.Geometry" scope="prototype">
+    </bean>
+
+    <bean name="operation" class="com.evghenii.Operation" autowire="byType">
+        <constructor-arg index="0" ref="geometry"/>
+        &lt;!&ndash;<property name="fileReader" ref="fileReader" />&ndash;&gt;
+    </bean>
+-->
+
+
+
+
+</beans>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    
+    <servlet>
+        <servlet-name>disp</servlet-name>
+        <servlet-class>servlet.DispatcherSevlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>disp</servlet-name>
+        <url-pattern>/filter/disp</url-pattern>
+    </servlet-mapping>
+
+<!--
+    <servlet>
+        <servlet-name>basis</servlet-name>
+        <servlet-class>servlet.BasisServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>basis</servlet-name>
+        <url-pattern>/basis</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>mathe</servlet-name>
+        <servlet-class>servlet.MatheServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>mathe</servlet-name>
+        <url-pattern>/mathe</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>programm</servlet-name>
+        <servlet-class>servlet.ProgrammerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>programm</servlet-name>
+        <url-pattern>/programm</url-pattern>
+    </servlet-mapping>-->
+    
+    <welcome-file-list>
+        <welcome-file>html/CalculForm.html</welcome-file>
+    </welcome-file-list>
+
+    
+</web-app>
